@@ -4,3 +4,46 @@
 2025-02-22 16:46:09 INFO  NewEditController:89 - new/edit window initializing
 2025-02-22 16:46:36 INFO  NewEditController:89 - new/edit window initializing
 2025-02-22 16:47:33 INFO  NewEditController:89 - new/edit window initializing
+2025-03-26 19:38:58 ERROR Task:26 - time below bound
+2025-03-26 19:38:58 ERROR Task:40 - interval < than 1
+2025-03-26 19:38:58 ERROR Task:40 - interval < than 1
+2025-03-26 19:38:58 ERROR Task:26 - time below bound
+2025-03-26 19:38:58 ERROR Task:26 - time below bound
+2025-03-26 19:39:39 ERROR Task:26 - time below bound
+2025-03-26 19:39:39 ERROR Task:40 - interval < than 1
+2025-03-26 19:39:39 ERROR Task:40 - interval < than 1
+2025-03-26 19:39:39 ERROR Task:26 - time below bound
+2025-03-26 19:39:39 ERROR Task:26 - time below bound
+2025-03-26 19:40:29 ERROR Task:26 - time below bound
+2025-03-26 19:40:29 ERROR Task:40 - interval < than 1
+2025-03-26 19:40:29 ERROR Task:40 - interval < than 1
+2025-03-26 19:40:29 ERROR Task:26 - time below bound
+2025-03-26 19:40:29 ERROR Task:26 - time below bound
+2025-03-26 19:41:52 ERROR Task:26 - time below bound
+2025-03-26 19:46:38 ERROR Task:40 - interval < than 1
+2025-03-26 19:46:38 ERROR Task:40 - interval < than 1
+2025-03-26 19:46:38 ERROR Task:26 - time below bound
+2025-03-26 19:46:38 ERROR Task:26 - time below bound
+2025-03-26 23:10:31 ERROR Task:40 - interval < than 1
+2025-03-26 23:10:32 ERROR Task:40 - interval < than 1
+2025-03-26 23:10:32 ERROR Task:26 - time below bound
+2025-03-26 23:10:32 ERROR Task:26 - time below bound
+2025-03-27 14:59:35 ERROR Task:26 - time below bound
+2025-03-27 14:59:35 ERROR Task:40 - interval < than 1
+2025-03-27 14:59:35 ERROR LinkedTaskList:48 - adding task that doesn't exist
+2025-03-27 14:59:35 ERROR Task:26 - time below bound
+2025-03-27 15:02:32 ERROR Task:26 - time below bound
+2025-03-27 15:04:36 ERROR Task:26 - time below bound
+2025-03-27 15:05:11 ERROR Task:26 - time below bound
+2025-03-27 15:06:02 ERROR Task:26 - time below bound
+2025-03-27 15:06:30 ERROR Task:40 - interval < than 1
+2025-03-27 15:06:51 ERROR Task:40 - interval < than 1
+2025-03-27 15:07:24 ERROR Task:40 - interval < than 1
+2025-03-27 15:14:24 ERROR Task:26 - time below bound
+2025-03-27 15:14:52 ERROR Task:40 - interval < than 1
+2025-03-27 15:15:09 ERROR Task:26 - time below bound
+2025-03-27 15:15:17 ERROR Task:40 - interval < than 1
+2025-03-27 15:15:36 ERROR Task:40 - interval < than 1
+2025-03-27 15:15:36 ERROR Task:40 - interval < than 1
+2025-03-27 15:15:36 ERROR Task:26 - time below bound
+2025-03-27 15:15:36 ERROR Task:26 - time below bound
