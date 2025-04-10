@@ -30,6 +30,7 @@ public class Task implements Serializable {
         this.time = time;
         this.start = time;
         this.end = time;
+        this.active = true;
     }
     public Task(String title, Date start, Date end, int interval){
         if (start.getTime() < 0 || end.getTime() < 0) {
@@ -45,6 +46,7 @@ public class Task implements Serializable {
         this.end = end;
         this.interval = interval;
         this.time = start;
+        this.active = true;
     }
 
     public String getTitle() {

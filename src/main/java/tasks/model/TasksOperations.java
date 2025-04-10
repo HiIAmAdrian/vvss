@@ -15,11 +15,13 @@ public class TasksOperations {
         System.out.println(start);
         System.out.println(end);
         ArrayList<Task> incomingTasks = new ArrayList<>();
-        for (Task t : tasks) {
-            Date nextTime = t.nextTimeAfter(start);
-            if (nextTime != null && (nextTime.before(end) || nextTime.equals(end))) {
-                incomingTasks.add(t);
-                System.out.println(t.getTitle());
+        if (start != null && end != null) {
+            for (Task t : tasks) {
+                Date nextTime = t.nextTimeAfter(start);
+                if (nextTime != null && (nextTime.before(end) || nextTime.equals(end))) {
+                    incomingTasks.add(t);
+                    System.out.println(t.getTitle());
+                }
             }
         }
         return incomingTasks;
