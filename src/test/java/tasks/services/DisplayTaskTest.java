@@ -35,6 +35,7 @@ class DisplayTaskTest {
                 new Task("Task3", new Date(80, 4, 25, 12, 30), new Date(80, 4, 25, 12, 30), 1),
                 new Task("Task4", new Date(80, 4, 30, 12, 30), new Date(80, 4, 30, 12, 30), 1)
         );
+        tasks.forEach(task -> task.setActive(true));
         TasksOperations tasksOperations = new TasksOperations(tasks);
 
         Iterable<Task> incomingTasks = tasksOperations.incoming(
@@ -58,6 +59,8 @@ class DisplayTaskTest {
                 new Task("Task3", new Date(80, 4, 25, 12, 30), new Date(80, 4, 25, 12, 30), 1),
                 new Task("Task4", new Date(80, 4, 30, 12, 30), new Date(80, 4, 30, 12, 30), 1)
         );
+        tasks.forEach(task -> task.setActive(true));
+
         TasksOperations tasksOperations = new TasksOperations(tasks);
 
         Iterable<Task> incomingTasks = tasksOperations.incoming(
@@ -79,6 +82,8 @@ class DisplayTaskTest {
                 new Task("Task3", new Date(80, 4, 25, 12, 30), new Date(80, 4, 25, 12, 30), 1),
                 new Task("Task4", new Date(80, 4, 30, 12, 30), new Date(80, 4, 30, 12, 30), 1)
         );
+        tasks.forEach(task -> task.setActive(true));
+
         TasksOperations tasksOperations = new TasksOperations(tasks);
 
         Iterable<Task> incomingTasks = tasksOperations.incoming(
@@ -100,6 +105,8 @@ class DisplayTaskTest {
                 new Task("Task3", new Date(80, 4, 25, 12, 30), new Date(80, 4, 25, 12, 30), 1),
                 new Task("Task4", new Date(80, 4, 30, 12, 30), new Date(80, 4, 30, 12, 30), 1)
         );
+        tasks.forEach(task -> task.setActive(true));
+
         TasksOperations tasksOperations = new TasksOperations(tasks);
 
         Iterable<Task> incomingTasks = tasksOperations.incoming(
@@ -118,6 +125,8 @@ class DisplayTaskTest {
         ObservableList<Task> tasks = FXCollections.observableArrayList(
                 new Task("Task1", new Date(80, 4, 20, 12, 30), new Date(80, 4, 20, 12, 30), 1)
         );
+        tasks.forEach(task -> task.setActive(true));
+
         TasksOperations tasksOperations = new TasksOperations(tasks);
 
         Iterable<Task> incomingTasks = tasksOperations.incoming(
@@ -138,6 +147,8 @@ class DisplayTaskTest {
                 new Task("Task1", new Date(80, 4, 20, 12, 30), new Date(80, 4, 20, 12, 30), 1),
                 new Task("Task2", new Date(80, 4, 21, 12, 30), new Date(80, 4, 21, 12, 30), 1)
         );
+        tasks.forEach(task -> task.setActive(true));
+
         TasksOperations tasksOperations = new TasksOperations(tasks);
 
         Iterable<Task> incomingTasks = tasksOperations.incoming(
