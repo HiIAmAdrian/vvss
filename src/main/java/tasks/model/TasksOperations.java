@@ -24,6 +24,9 @@ public class TasksOperations {
                 }
             }
         }
+        if (incomingTasks.isEmpty()){
+            System.out.println("No tasks found in the specified range.");
+        }
         return incomingTasks;
     }
     public SortedMap<Date, Set<Task>> calendar( Date start, Date end){
