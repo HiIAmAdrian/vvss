@@ -20,6 +20,8 @@ public class ServiceRepoIntegrationTest {
 
         Task mockTask = mock(Task.class);
         when(mockTask.getTitle()).thenReturn("Mock Task");
+        when(mockTask.getTime()).thenReturn(new Date());
+        when(mockTask.isActive()).thenReturn(true);
 
         repository.add(mockTask);  // Interact directly with R
 
