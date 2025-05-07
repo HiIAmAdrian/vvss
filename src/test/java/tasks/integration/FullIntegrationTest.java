@@ -1,5 +1,6 @@
 package tasks.integration;
 
+import javafx.collections.ObservableList;
 import org.junit.jupiter.api.Test;
 import tasks.model.ArrayTaskList;
 import tasks.model.Task;
@@ -19,9 +20,10 @@ public class FullIntegrationTest {
 
         Task task = new Task("Real Task", new Date(2025 - 1900, 4, 1, 10, 0));
         task.setActive(true);
-        service.getObservableList().add(task);
+        repo.add(task);
+        ObservableList<Task> tasks = service.getObservableList();
 
-        assertEquals(1, repo.size());
+        assertEquals(1, tasks.size());
         assertEquals("Real Task", repo.getTask(0).getTitle());
     }
 
